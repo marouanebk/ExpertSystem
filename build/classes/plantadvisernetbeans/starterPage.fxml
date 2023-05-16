@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<!--<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="plantadvisernetbeans.StarterPageController">
+    
+</AnchorPane>-->
+
+
+<VBox prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #F3FFF9;" xmlns="http://javafx.com/javafx/19"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="plantadvisernetbeans.StarterPageController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ImageView fitHeight="264.0" fitWidth="264.0" layoutX="33.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/ill2.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="44.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello">
+               <font>
+                  <Font name="System Bold" size="40.0" />
+               </font></Text>
+            <Text layoutX="362.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This AI module will take your job ">
+               <font>
+                  <Font size="20.0" />
+               </font></Text>
+            <Button fx:id="start" layoutX="362.0" layoutY="256.0" mnemonicParsing="false" onAction="#navigatePage" prefHeight="26.0" prefWidth="77.0" style="-fx-border-radius: 4; -fx-background-color: #68ECAA; -fx-max-width: 162;" text="Start" />
+            <Text layoutX="44.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 29; -fx-font-weight: w600;" text="welcome to FloraBot 👋">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Text>
+            <Text layoutX="362.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="give it a try?">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
